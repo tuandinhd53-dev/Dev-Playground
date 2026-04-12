@@ -34,6 +34,20 @@ body {
 .btn:hover {
     background-color: #1ebfc1;
 }
+
+.cta-btn {
+    display: inline-block;
+    color: #fff;
+    min-width: 186px;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.5;
+    border-radius: 14px;
+    background: #1ebfc1;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
+}
 /* common */
 a {
     text-decoration: none;
@@ -70,4 +84,52 @@ a {
     border: 1px solid #1ebfc1;
     color: #1ebfc1;
     font-weight: 600;
+}
+
+/* Hero */
+.hero {
+    margin-top: 42px;
+}
+
+.hero .content {
+    width: 55%;
+}
+
+.hero .content .label {
+    color: #767e7e;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.hero .heading {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16; /* 116.129% */
+}
+
+.hero .content .desc {
+    color: #9da6a5;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 46px;
+    line-height: 1.78; /* 177.778% */
+}
+
+.hero .cta-group {
+    display: flex;
+    align-items: center;
+    margin-top: 52px;
+}
+
+.hero .play {
+    width: 62px;
+    height: 62px;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 22px 50px 0 rgba(0, 0, 0, 0.05);
+    margin-left: 50px;
 }
