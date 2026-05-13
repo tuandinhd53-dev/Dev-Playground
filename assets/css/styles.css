@@ -468,6 +468,10 @@ img {
     text-align: center;
 }
 
+.member__list--item:hover img {
+    transform: scale(1.1);
+}
+
 .member__list--img {
     padding-top: 28px;
     border-radius: 6px;
@@ -479,6 +483,7 @@ img {
 .member__list--img img {
     max-width: 100%;
     display: block;
+    transition: 0.25s;
 }
 
 .member__list--name {
