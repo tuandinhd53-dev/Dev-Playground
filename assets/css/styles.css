@@ -447,7 +447,7 @@ img {
 /* Member */
 
 .member {
-    padding-top: 85px;
+    padding: 85px 0;
 }
 
 .member-header {
@@ -507,7 +507,7 @@ img {
     text-align: center;
     display: flex;
     justify-content: center;
-   margin-top: 38px;
+    margin-top: 38px;
 }
 
 .member__control-btn {
@@ -521,7 +521,7 @@ img {
     background: #fff;
     outline: none;
     color: #575f66;
-     transition: 0.25s;
+    transition: 0.25s;
 }
 
 .member__control-btn:hover {
@@ -532,5 +532,53 @@ img {
 }
 
 .member__control-btn-nexts {
-    rotate:180deg;
+    rotate: 180deg;
+}
+
+/*App  */
+.app {
+    padding: 85px 0;
+}
+.app__content {
+    display: flex;
+    border-radius: 4px;
+    background: #2e80ce;
+    padding: 0 70px;
+}
+
+.app__phone--img {
+    width: 284px;
+    height: 522px;
+    margin-top: -95px;
+}
+
+.app__phone--text {
+    margin-left: 170px;
+}
+
+.app__phone--heading {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+    margin: 76px 0 18px;
+    width: 489px;
+}
+
+.app__phone--desc {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 38px;
+    font-weight: 300;
+    line-height: 1.67; /* 166.667% */
+    width: 586px;
+}
+
+.app__download--google,
+.app__download--apple {
+    
+    background: transparent;
+    outline: none;
+    border: none;
 }
