@@ -447,7 +447,7 @@ img {
 /* Member */
 
 .member {
-    padding: 85px 0;
+    padding-top: 85px;
 }
 
 .member-header {
@@ -537,7 +537,7 @@ img {
 
 /*App  */
 .app {
-    padding: 85px 0;
+    margin-top: 170px;
 }
 .app__content {
     display: flex;
@@ -575,10 +575,7 @@ img {
     width: 586px;
 }
 
-.app__download--google,
-.app__download--apple {
-    
-    background: transparent;
-    outline: none;
-    border: none;
+.app__download {
+    column-gap: 28px;
+    display: flex;
 }
