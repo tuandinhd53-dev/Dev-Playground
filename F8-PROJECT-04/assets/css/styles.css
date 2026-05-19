@@ -110,3 +110,137 @@ img {
     --height: 50px;
 }
 
+/* Hero */
+
+.hero {
+    margin-top: 74px;
+}
+
+.hero__inner {
+    display: flex;
+
+    align-items: center;
+}
+
+.hero__media {
+    display: flex;
+    position: relative;
+    padding-bottom: 94px;
+    flex: 1;
+}
+
+.hero__content {
+    max-width: 517px;
+}
+
+.hero__img--wrap {
+    position: relative;
+    max-width: 388px;
+    max-height: 488px;
+    border-radius: 16px;
+    background: #fe997b;
+    border: 3px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__img {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.hero__decor-1 {
+    position: absolute;
+    left: -58px;
+    top: 248px;
+    z-index: -1;
+}
+
+.hero__decor-2 {
+    position: absolute;
+    right: -43px;
+    top: 17px;
+    z-index: -1;
+}
+
+.hero__img--wrap-smail {
+    width: 186px;
+    height: 244px;
+    border-radius: 16px;
+    background: #faa7ad;
+    border: 3px solid #fde0e2;
+    margin: 0 0 -58px -23px;
+    align-self: flex-end;
+}
+
+.hero__item {
+    position: absolute;
+    bottom: 0;
+    margin-left: 129px;
+    width: 250px;
+    height: 156px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
+}
+
+.hero__item--list {
+    display: flex;
+    margin: 18px 14px;
+}
+
+.hero__item--list-thumb {
+    border-radius: 10px;
+    background: #fec23f;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.hero__item--list_info {
+    margin-left: 10px;
+    color: #181e52;
+    font-family: Sora;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+}
+
+.hero__item--list-skeleton {
+    border-radius: 10px;
+    opacity: 0.08;
+    background: #000958;
+    width: var(--width, 118px);
+    height: 4px;
+    margin: 6px 0;
+}
+
+.hero__item--separate {
+    width: 222px;
+    height: 2px;
+    background: #f2f2f2;
+    border-radius: 99px;
+    margin: 0 14px;
+}
+
+.hero__item--list:nth-of-type(2) .hero__item--list-thumb {
+    background: #c6e2fa;
+}
+
+.hero__heading {
+    color: #000958;
+    font-size: 6.6rem;
+    font-weight: 800;
+    line-height: 1.15; /* 115.152% */
+    width: 517px;
+}
+
+.hero__desc {
+    margin-top: 24px;
+    color: #656689;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.88; /* 187.5% */
+}
