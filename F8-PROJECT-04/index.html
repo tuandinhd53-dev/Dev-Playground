@@ -78,7 +78,10 @@
         />
         <link rel="manifest" href="./assets/favicon/manifest.json" />
         <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
         <meta name="theme-color" content="#ffffff" />
 
         <!-- Reset Styles -->
@@ -97,18 +100,51 @@
         <link rel="stylesheet" href="assets/css/styles.css" />
     </head>
     <body>
-        <h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-            esse eaque doloribus iusto impedit earum nulla quas quam omnis velit
-            et culpa aliquid, distinctio vitae perferendis iste! Nulla,
-            laudantium aspernatur?
-        </h1>
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <!-- Logo -->
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Consequuntur illum nulla repellat! Voluptates dicta quam repellendus
-            officiis. Similique nemo accusamus nobis sapiente, eveniet
-            dignissimos error dolor, facere libero quod blanditiis.
-        </p>
-    </body>
-</html>
+                    <a href="#!">
+                        <img
+                            class="logo"
+                            src="./assets/img/logo.png"
+                            alt="Lucy"
+                        />
+                    </a>
+
+                    <!-- Navigation -->
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a class="nav__link" href="#!">Home</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#!">About</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#!"
+                                    >Services & Rates</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#!">Reviewa</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#!">Contacts us</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!--Header Action -->
+
+                    <div class="header__action">
+                        <a class="header__action-link" href="#!">Sign In</a>
+                        <a class="header__action-btn btn" href="#!">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+ 
