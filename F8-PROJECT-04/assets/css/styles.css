@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #ff5b2e;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -57,7 +61,38 @@ img {
     font-size: 1.4rem;
     font-weight: 600;
     line-height: var(--height);
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.btn--primary {
+    border-radius: 31px;
+    border-color: var(--primary-color);
+    background: var(--primary-color);
+    box-shadow: 0 13px 26px -8px rgba(255, 91, 46, 0.42);
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+}
+
+.btn__icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fffaf5;
+    border-radius: 50%;
+    margin-left: 10px;
+    box-shadow: 4px 3px 10px -1px rgba(191, 41, 0, 0.4);
 }
 
 /* Header */
@@ -118,15 +153,15 @@ img {
 
 .hero__inner {
     display: flex;
-
     align-items: center;
+    column-gap: 120px;
 }
 
 .hero__media {
     display: flex;
     position: relative;
     padding-bottom: 94px;
-    flex: 1;
+    width: 100%;
 }
 
 .hero__content {
@@ -135,19 +170,19 @@ img {
 
 .hero__img--wrap {
     position: relative;
-    max-width: 388px;
-    max-height: 488px;
+    width: 388px;
+    height: 488px;
     border-radius: 16px;
     background: #fe997b;
     border: 3px solid #fff;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .hero__img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     border-radius: inherit;
 }
 
@@ -178,7 +213,7 @@ img {
 .hero__item {
     position: absolute;
     bottom: 0;
-    margin-left: 129px;
+    left: 129px;
     width: 250px;
     height: 156px;
     border-radius: 10px;
@@ -239,8 +274,31 @@ img {
 
 .hero__desc {
     margin-top: 24px;
+    width: 391px;
     color: #656689;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.88; /* 187.5% */
 }
+
+.hero__contact {
+    display: flex;
+    margin-top: 38px;
+    align-items: center;
+}
+
+.hero__btn {
+    margin-right: 24px;
+    width: 189px;
+    height: 60px;
+}
+
+.hero__call-link {
+    color: #000958;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6rem; /* 100% */
+    text-decoration-line: underline;
+}
+
+/*  */
