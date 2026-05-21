@@ -596,7 +596,127 @@ img {
 }
 
 .tab__content--more::after {
-    
     opacity: 1;
     height: 2px;
+}
+/* Services */
+.services {
+    margin-top: 190px;
+    background: #fff6ed;
+    padding-bottom: 100px;
+}
+
+.services__top {
+    padding-top: 68px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.services__body {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    margin-top: 70px;
+    column-gap: 70px;
+}
+
+.services-item__colums {
+    width: 294px;
+    height: 208px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 188, 122, 0.26);
+    background: #fff;
+    padding: 30px 28px;
+}
+
+.services-item__heading {
+    position: relative;
+    color: #000958;
+    font-family: Sora, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-left: 12px;
+}
+
+.services-item__heading::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 22px;
+    background: linear-gradient(180deg, #ff5b2e 0.39%, #ffa187 100.29%);
+    display: block;
+    bottom: 0;
+    left: -10px;
+    border-radius: 99px;
+}
+
+.services-item__desc {
+    color: #656689;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.71;
+    margin: 18px 0 24px 0;
+}
+
+.services-item__link {
+    color: #34396a;
+    font-family: Sora, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1;
+    display: inline-flex;
+}
+
+.services-item__link::after {
+    content: url(../icon/arrow-up-right.svg);
+    margin-left: 6px;
+}
+
+.services-item__colums + .services-item__colums {
+    margin-top: 24px;
+}
+
+.services__img {
+    margin-top: 18px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.services__img::after {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 350px;
+
+    border-radius: 10px;
+    background: linear-gradient(180deg, #9df1fb 0%, #73d0db 108.14%);
+}
+
+.services__img-pet {
+    width: 100%;
+    height: 621px;
+}
+
+.services__colums-btn {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.services__btn {
+    width: 214px;
+    height: 56px;
+    color: #ff5b2e;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1;
+    border: 1px solid #ff5b2e;
+    opacity: 0.6;
+    box-shadow: 0 13px 26px -8px rgba(255, 91, 46, 0.42);
+    
 }
