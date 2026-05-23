@@ -841,6 +841,7 @@ img {
 /* Pricing */
 .pricing {
     padding: 86px 0;
+    background: #fff6ed;
 }
 
 .pricing__container {
@@ -1008,3 +1009,132 @@ img {
     .pricing__item:is(:nth-child(5), :nth-child(6), :nth-child(7))::before {
     content: url(../icon/check-blur.svg);
 }
+
+/* Review */
+.review {
+    margin-top: 53px;
+    padding-top: 48px;
+}
+
+.review-inner {
+    display: flex;
+    align-items: center;
+}
+.review__control {
+    border: none;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    border: 1.5px solid #ffd1c4;
+    color: #ff5b2e;
+    background: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.review__control:hover {
+    background: #ff5b2e;
+    box-shadow: 0 5px 27px 0 rgba(255, 91, 46, 0.3);
+    color: white;
+    border: none;
+}
+
+.review__content {
+    margin: 0 76px 0 44px;
+    overflow: hidden;
+}
+
+.review__item-content {
+    margin-top: 44px;
+}
+
+.review__list {
+    display: flex;
+}
+.review__item {
+    display: flex;
+    column-gap: 115px;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.review__media-img {
+    width: 274px;
+    border-radius: 137px;
+    position: relative;
+    margin-top: -48px;
+}
+
+.review__media-img::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 82%;
+    inset: auto 0 0 0;
+    border-radius: inherit;
+    background: #ffda54;
+}
+
+.review__img-item {
+    width: 100%;
+    border-radius: inherit;
+    position: relative;
+    z-index: 1;
+}
+
+.review__quote-item {
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.56;
+    width: 553px;
+    margin: 24px 0 34px;
+}
+.review__author {
+    color: #282828;
+    font-family: Sora, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+
+.review__author::before {
+    content: "";
+    border-radius: 99px;
+    height: 2px;
+    width: 20px;
+    background: #000;
+    display: inline-flex;
+    margin-right: 8px;
+}
+
+.review__item {
+    display: flex;
+    align-items: center;
+}
+
+.review__dots {
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.review__dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid #ff5b2e;
+}
+
+.review__dot-active {
+    width: 24px;
+    border-radius: 4px;
+    background: #ff5b2e;
+}
+
+/*  */
